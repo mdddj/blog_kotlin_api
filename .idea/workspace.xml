@@ -4,22 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d84bf891-7d64-435e-b354-f8a96cd18951" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/service/ServiceCreate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/service/blog/BlogService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/service/blog/BlogServiceTest.kt" afterDir="false" />
+    <list default="true" id="d84bf891-7d64-435e-b354-f8a96cd18951" name="变更" comment="第一次提交">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/Result.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/blog/Blog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/blog/Category.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/blog/Data.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/blog/Page.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/blog/Tag.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/service/blog/BlogService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/service/blog/BlogService.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,11 +86,11 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.19266057",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.dd_shop_kotlin_api [jar]">
+  <component name="RunManager" selected="HTTP 请求.generated-requests | #7">
     <configuration name="BlogServiceTest.testGetBlogList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -183,10 +177,14 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="generated-requests | #7" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="7" requestIdentifier="#7" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.dd_shop_kotlin_api [jar]" />
+        <item itemvalue="HTTP 请求.generated-requests | #7" />
         <item itemvalue="Gradle.BlogServiceTest.testGetBlogList" />
+        <item itemvalue="Gradle.dd_shop_kotlin_api [jar]" />
         <item itemvalue="Gradle.dd_shop_kotlin_api [testClasses]" />
         <item itemvalue="Gradle.dd_shop_kotlin_api [build]" />
       </list>
@@ -201,8 +199,17 @@
       <option name="presentableId" value="Default" />
       <updated>1652252396627</updated>
       <workItem from="1652252398197" duration="3458000" />
-      <workItem from="1652261623012" duration="909000" />
+      <workItem from="1652261623012" duration="1024000" />
+      <workItem from="1652264556075" duration="685000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1652262744509</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652262744509</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,5 +225,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
   </component>
 </project>

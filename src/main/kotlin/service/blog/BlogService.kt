@@ -1,6 +1,6 @@
 package service.blog
 
-import retrofit2.Call
+import model.blog.BlogData
 import retrofit2.http.GET
 import retrofit2.http.Query
 
@@ -13,5 +13,5 @@ interface BlogService {
      * 获取博客列表
      */
     @GET("/api/blog/list")
-    suspend fun getBlogs(@Query("page") page: Int,@Query("pageSize") pageSize: Int): Any
+    suspend fun getBlogs(@Query("page") page: Int,@Query("pageSize") pageSize: Int): Result<BlogData>
 }
