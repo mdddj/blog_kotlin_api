@@ -1,15 +1,12 @@
 package model
 
 
-data class Result<T> (
+data class JSONResult<T> (
     val state: Int,
     val message: String,
     val data: T
 )
 
-/**
- * 请求是否成功
- */
-fun Result<Any>.success() : Boolean{
-    return this.state == 200;
+fun Int.ok(): Boolean{
+    return this == 200
 }
