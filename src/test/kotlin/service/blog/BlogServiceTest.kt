@@ -13,7 +13,7 @@ class BlogServiceTest {
     fun testGetBlogList(){
         runBlocking {
             val job1 =  async {
-               ServiceCreate.create<BlogService>().getBlogs(1,20)
+               ServiceCreate.server.create<BlogService>().getBlogs(1,20)
             }
             val result = job1.await()
             assertTrue { result.state.ok() }
@@ -24,7 +24,7 @@ class BlogServiceTest {
     fun testStatisticsTest(){
         runBlocking {
             val job = async {
-                ServiceCreate.create<BlogService>().getStatistics()
+                ServiceCreate.server.create<BlogService>().getStatistics()
             }
             val result = job.await()
             assertTrue { result.state.ok() }

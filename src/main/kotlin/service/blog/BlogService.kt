@@ -22,4 +22,7 @@ interface BlogService {
      */
     @GET("/api/blog/statistics")
     suspend fun getStatistics(): JSONResult<StatisticsData>
+
+
+
 }
